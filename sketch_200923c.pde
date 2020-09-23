@@ -3,9 +3,6 @@ void setup(){
   size(500,500);
 }
 
-void mouseDragged(){
-}
-
 void draw(){
   if(second() % 2 == 0){
     fill(255,0,0);
