@@ -10,9 +10,8 @@ void setup(){
 void draw(){
   background(255,255,255);
   ellipse(300,300,ballSize,ballSize);
-  ballSize = ballSize - 5;
-  println(ballSize);
-  if(x >= width){
-    x = 100;
+  ballSize = ballSize + 3;
+  if(ballSize > width + 100){
+    ballSize = 70;
   }
 }
